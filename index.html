@@ -32,6 +32,8 @@
       width: 90%;
       border-collapse: collapse;
     }
+    #one{
+      width:100%;
     table,
     th,
     td {
@@ -57,19 +59,31 @@
 <body>
   <div class="container">
     <h1>INDIAN UNION DRIVING LICENSE</h1>
-    <h2>ISSUED BY WEST BENGAL STATE</h2>
-    <p><strong>DL No.: WB05 2023 0007753</strong></p>
-    <p><strong>Date Of First Issue:- 31-05-2023</strong< /p>
-        <p><strong>Validity (NT):-31-12-2034</strong< /p>
-            <p><strong>Validity (TR):-19-06-2029</strong< /p>
-  
-  <p><strong>Name:</strong> MD TANVEER KHAN</p>
-  <p><strong>S/O: </strong> MD JAWAR KHAN</p>
-  <p><strong>Date Of Birth:</strong> 01-04-2001</p>
-  <p><strong>Blood Group:</strong> O+</p>
+    <table id="one">
+      <tr>
+        <th colspan="2">
+          <h2>ISSUED BY WEST BENGAL STATE</h2>
+        </th>
+      </tr>
+      <tr>
+        <td>
+              <p><strong>DL No.:</strong> WB05 2023 0007753</p>
+              <p><strong>Date Of First Issue:-</strong> 31-05-2023</p>
+              <p><strong>Validity (NT):- </strong>31-12-2034</p>
+              <p><strong>Validity (TR):- </strong>19-06-2029</p>
+        </td>
+        <td>
+          <p><strong>Name:</strong> MD TANVEER KHAN</p>
+          <p><strong>S/O: </strong> MD JAWAR KHAN</p>
+          <p><strong>Date Of Birth:</strong> 01-04-2001</p>
+          <p><strong>Blood Group:</strong> O+</p>
+        </td>
+      </tr>
+    </table>
+    <!-- <hr> -->
   </div>
   <h2>Classes of Vehicle</h2>
-  <table border="1">
+  <table border="1" id="two">
     <tr>
       <th>COV</th>
       <th>Date of Issue</th>
